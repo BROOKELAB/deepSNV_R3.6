@@ -17,18 +17,18 @@ Our nextflow pipeline uses deepSNV version 1.30 for R/3.6 and Bioconductor/3.9.
 
 It has been tested on IGV's biocluster with this software stack:
 
-- <b>Nextflow</b>    tested with version nextflow/19.07.0-Java-1.8.0_152
-- <b>MultiQC</b>     tested with version MultiQC/1.7-IGB-gcc-4.9.4-Python-3.6.1
-- <b>fastp</b>      tested with version fastp/0.19.5-IGB-gcc-4.9.4
-- <b>samtools</b>      tested with version SAMtools/1.9-IGB-gcc-4.9.4
-- <b>PicardTools</b>   tested with version picard/2.10.1-Java-1.8.0_152
-- <b>Bowtie2</b>     tested with version Bowtie2/2.3.2-IGB-gcc-4.9.4
-- <b>deppSNV</b>     tested with R-lib/3.6-deepSNV
-- <b>MUSCLE</b>      tested with version MUSCLE/3.8.31-IGB-gcc-4.9.4
-- <b>Python</b>      tested with Python/2.7.13-IGB-gcc-4.9.4
-- <b>BioPython</b>      tested with Biopython/1.68-IGB-gcc-4.9.4-Python-2.7.13
-- <b>VarScan</b>      tested with version VarScan/2.3.9-Java-1.8.0_152
-- <b>SnpEff</b>      tested with version snpEff/4.3t-Java-1.8.0_152
+- <b>Nextflow</b>    tested with version 19.07.0 ( download page https://github.com/nextflow-io/nextflow/releases )
+- <b>MultiQC</b>     tested with version 1.7 ( download page https://github.com/ewels/MultiQC )
+- <b>fastp</b>      tested with version 0.19.5 ( download page https://github.com/OpenGene/fastp )
+- <b>samtools</b>      tested with version 1.9 ( download page https://sourceforge.net/projects/samtools/files/samtools/ ) 
+- <b>PicardTools</b>   tested with version 2.10.1 ( download page https://broadinstitute.github.io/picard/ )
+- <b>Bowtie2</b>     tested with version 2.3.2 ( download page  http://bowtie-bio.sourceforge.net/bowtie2/index.shtml )
+- <b>deepSNV</b>     tested with R-lib 3.6 ( download page https://bioconductor.org/packages/release/bioc/html/deepSNV.html )
+- <b>MUSCLE</b>      tested with version 3.8.31 ( download page https://www.drive5.com/muscle/downloads.htm )
+- <b>Python</b>      tested with  version  2.7.13 ( download page https://www.python.org/downloads/ )
+- <b>BioPython</b>      tested with  version 1.68 ( download page https://biopython.org/wiki/Download )
+- <b>VarScan</b>      tested with version 2.3.9 ( download page http://varscan.sourceforge.net/ )
+- <b>SnpEff</b>      tested with version 4.3t ( download page http://snpeff.sourceforge.net/download.html )
 - <b>SnpEff database</b>      custome-built database for avial flu virus sp. PR8
 
 
