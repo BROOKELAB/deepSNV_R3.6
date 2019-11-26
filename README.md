@@ -68,3 +68,38 @@ sudo mv nextflow /usr/local/bin
 <pre>
 nextflow -c config.file deepSNV_R3.6_pipeline_v2.nf
 </pre>
+
+# OUTPUTS
+
+Nextflow generates two folders to keep track of execution progress. You can delete them once the execution ends successfully. They are called <i>.nextflow/ </i> and <i>work/ </i>
+
+The actual results of the pipeline are placed in these folders:
+
+- <b> Prepared-Reads /</b>  contains the results of QC, filter and trim of the raw reads with fastp
+- <b> Bowtie2-align-n-sort /</b> contains the results of the alignment step wwith Bowtie2
+- <b> MarkDup /</b> contains the results of the deduplication step with Picard's MarkDuplicates
+- <b> ReadyBAMs /</b> contains the results of the filtering step with Samtools
+- <b> deepSNV_variants /</b> contains the results of variant discovery with deepSNV
+- <b> VarScan_SnpEff_variants /</b> contains the results of variant discovery with VarScan and annotation with SnpEff
+- <b> MultiQC /</b> contains the results of read tracking with MultiQC
+
+The final results are files with extension *.final.annotated.vcf* inside the <b>VarScan_SnpEff_variants</b> folder.
+Each treatment sample should have one such file in this folder, even if it is empty of variants.
+
+
+# LICENSE
+
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>
+
+# CITATIONS
+
+
+
+
+
+
